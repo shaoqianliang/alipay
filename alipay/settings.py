@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 's11alipay.urls'
+ROOT_URLCONF = 'alipay.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 's11alipay.wsgi.application'
+WSGI_APPLICATION = 'alipay.wsgi.application'
 
 
 # Database
